@@ -1,0 +1,56 @@
+[user]
+	name = tuxp1
+	email = tuxp1@lenovo.com
+[color]
+	ui = true
+[core]
+	editor = vi
+	autocrlf = input
+[url "git://10.100.124.241/aosp"]
+        	insteadOf = https://android.googlesource.com
+        	insteadOf = http://android.googlesource.com
+filemode = false
+[url "ssh://bjmotomirr:29418/"]
+	insteadOf = ssh://gerrit.pcs.mot.com:29418/
+	insteadOf = ssh://gerrit.mot.com:29418/
+	insteadOf = ssh://gerrit.blurdev.com:29418/
+	insteadOf = ssh://git.blurdev.com:29418/
+	insteadOf = ssh://gerrit.pcs.mot.com/
+	insteadOf = ssh://gerrit.mot.com/
+	insteadOf = ssh://gerrit.blurdev.com/
+	insteadOf = ssh://git.blurdev.com/
+	insteadOf = ssh://git.blurdev.com/proj/repo01/blur_gerrit_mirror/
+	insteadOf = ssh://gerrit.blurdev.com/proj/repo01/blur_gerrit_mirror/
+	insteadOf = file:///proj/repo01/gerrit/
+	insteadOf = /proj/repo01/gerrit/
+	insteadOf = file:///proj/repo01/blur_gerrit_mirror/
+	insteadOf = /proj/repo01/blur_gerrit_mirror/
+	insteadOf = ssh://bjmotomirr/proj/repo01/gerrit/
+	insteadOf = ssh://bjmotomirr/proj/repo01/blur_gerrit_mirror/
+	insteadOf = ssh://tuxp1@gerrit.pcs.mot.com:29418/
+	insteadOf = ssh://tuxp1@gerrit.mot.com:29418/
+	insteadOf = ssh://tuxp1@gerrit.blurdev.com:29418/
+	insteadOf = ssh://tuxp1@git.blurdev.com:29418/
+	insteadOf = ssh://tuxp1@gerrit.pcs.mot.com/
+	insteadOf = ssh://tuxp1@gerrit.mot.com/
+	insteadOf = ssh://tuxp1@gerrit.blurdev.com/
+	insteadOf = ssh://tuxp1@git.blurdev.com/
+	insteadOf = ssh://tuxp1@git.blurdev.com/proj/repo01/blur_gerrit_mirror/
+	insteadOf = ssh://tuxp1@gerrit.blurdev.com/proj/repo01/blur_gerrit_mirror/
+	insteadOf = ssh://tuxp1@bjmotomirr/proj/repo01/gerrit/
+	insteadOf = ssh://tuxp1@bjmotomirr/proj/repo01/blur_gerrit_mirror/
+	insteadOf = ssh://tuxp1@bjmotomirr/29418/
+	insteadOf = http://gerrit.mot.com
+	[url "ssh://tuxp1@gerrit.mot.com:29418/"]
+	pushInsteadOf = ssh://gerrit.pcs.mot.com:29418/
+	pushInsteadOf = ssh://gerrit.mot.com:29418/
+	pushInsteadOf = ssh://gerrit.blurdev.com:29418/
+	pushInsteadOf = ssh://git.blurdev.com:29418/
+	pushInsteadOf = ssh://gerrit.pcs.mot.com/
+	pushInsteadOf = ssh://gerrit.mot.co
+[url "https://github.com/tustar/"]
+[diff]
+	external = /home/tustar/.meld/git_meld.sh
+	tool = meld
+[merge]
+	tool = meld
